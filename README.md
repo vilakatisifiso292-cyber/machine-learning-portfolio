@@ -1,5 +1,10 @@
 # Machine Learning Portfolio
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Google Colab](https://img.shields.io/badge/Google-Colab-orange?logo=googlecolab)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 Welcome to my Machine Learning & Data Science portfolio!  
 This repository contains my projects as I learn and grow in Python, Machine Learning, and Data Science.  
 
@@ -29,6 +34,11 @@ This project demonstrates:
 - Python 3
 - Google Colab
 - GitHub
+
+---
+
+## 📷 Preview
+![Project Preview](https://via.placeholder.com/800x400.png?text=Project+Preview)
 
 ---
 
