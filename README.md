@@ -1,4 +1,5 @@
-# Machine Learning Portfolio
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vilakatisifiso292-cyber/machine-learning-portfolio/blob/main/Day1_Daily_Schedule.ipynb)
+Machine Learning Portfolio
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Google Colab](https://img.shields.io/badge/Google-Colab-orange?logo=googlecolab)
