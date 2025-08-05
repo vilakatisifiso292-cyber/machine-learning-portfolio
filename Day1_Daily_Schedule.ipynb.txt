@@ -1,0 +1,178 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zJldj2uRiWrv",
+        "outputId": "b072696c-eb5a-4eb2-9452-86dc7c806f97"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Machine Learning World!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, Machine Learning World!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Sifiso\"\n",
+        "age = 29\n",
+        "print(\"My name is\", name, \"and I am\", age, \"years old.\")"
+      ],
+      "metadata": {
+        "id": "ULATzQMbitri",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "bc645836-2ddc-40d9-b66b-29868be5712d"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Sifiso and I am 29 years old.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruits = [\"apple\", \"banana\", \"orange\"]\n",
+        "print(fruits)\n",
+        "print(fruits[0])  # First item"
+      ],
+      "metadata": {
+        "id": "z3IIkXqni5Ym",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d32e14ec-e68b-44fc-84ea-74f7d960dcd1"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'banana', 'orange']\n",
+            "apple\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for fruit in fruits:\n",
+        "      print(\"I like\", fruit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6jMZkmOgjCMB",
+        "outputId": "deb2bb5d-3617-4a9e-c624-5f05d8ff8108"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I like apple\n",
+            "I like banana\n",
+            "I like orange\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def greet(person):\n",
+        "      return \"Hello, \" + person\n",
+        "\n",
+        "      print(greet(\"Sifiso\"))"
+      ],
+      "metadata": {
+        "id": "vMpLBfXhjSZh"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# My Daily Learning Schedule\n",
+        "\n",
+        "schedule = {\n",
+        "    \"7:00 AM\": \"Wake up and freshen up\",\n",
+        "    \"8:00 AM\": \"Learn Python basics\",\n",
+        "    \"10:00 AM\": \"Practice coding exercises\",\n",
+        "    \"12:00 PM\": \"Lunch break\",\n",
+        "    \"1:00 PM\": \"Learn Pandas for data handling\",\n",
+        "    \"3:00 PM\": \"Work on mini projects\",\n",
+        "    \"5:00 PM\": \"Review and take notes\",\n",
+        "    \"6:00 PM\": \"Free time / rest\"\n",
+        "}\n",
+        "\n",
+        "print(\"My Daily Learning Schedule:\")\n",
+        "for time, task in schedule.items():\n",
+        "    print(time + \" - \" + task)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0VYYxvoMtfRU",
+        "outputId": "d55643c0-2070-47f7-fa03-cb662b60c6ca"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My Daily Learning Schedule:\n",
+            "7:00 AM - Wake up and freshen up\n",
+            "8:00 AM - Learn Python basics\n",
+            "10:00 AM - Practice coding exercises\n",
+            "12:00 PM - Lunch break\n",
+            "1:00 PM - Learn Pandas for data handling\n",
+            "3:00 PM - Work on mini projects\n",
+            "5:00 PM - Review and take notes\n",
+            "6:00 PM - Free time / rest\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
